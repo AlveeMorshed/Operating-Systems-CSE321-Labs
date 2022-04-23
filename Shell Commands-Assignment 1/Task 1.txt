@@ -1,0 +1,5 @@
+$ rm -r HelloWorldDir/*	# Delete all the files and folders from a directory named HelloWorldDir
+$ ls -p | egrep -v /$ 	# Show the files in a directory
+$ ls *.txt	# Finds all the .txt files in a directory
+$ grep -r "StringToCheck" *	#Check for the given string: "StringToCheck" in multiple files
+$ chmod a+rx HelloWorld	# command to give only read and execution permission of a file named HelloWorld to owner, group and user
